@@ -1,0 +1,9 @@
+print ("Starting")
+
+filename = '/home/pi/logfile.txt'
+with open(filename) as f:
+	reader = csv.reader(f)
+	header_row = next(reader)
+	date, time,windspeed = [],[],[]
+	print(header_row)
+			

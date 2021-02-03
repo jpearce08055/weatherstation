@@ -1,0 +1,1 @@
+Files for the W2MMD weather station
